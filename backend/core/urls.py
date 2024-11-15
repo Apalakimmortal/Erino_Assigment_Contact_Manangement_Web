@@ -21,5 +21,4 @@ from posts.api.urls import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('core.api.urls')),
-    path('contact/<id>',UserViewSet.update_contact)
 ]
